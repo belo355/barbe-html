@@ -3,10 +3,14 @@ body {
 }
 
 header {
-	background: #BBBBBB;
+	background: #090909;
+	opacity: 0.3;
 	padding: 20px 0;
 }
 
+.image-log {
+	width: 20%;
+}
 .caixa {
 	position: relative;
 	width: 940px;
@@ -26,10 +30,11 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #F0F0F0;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+	
 }
 
 nav a:hover {
@@ -88,11 +93,6 @@ footer {
 	padding: 40px 0;
 }
 
-.copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
-}
 
 main {
 	background: #FEFEFE;
@@ -154,6 +154,7 @@ td, th {
 
 .banner {
 	width: 100%;
+	height: 900px;
 }
 
 .titulo-principal  {
@@ -171,6 +172,7 @@ td, th {
 } 
 .principal p {
 	margin: 0 0 1em;
+	font-size: 25px;
 }
 
 .principal strong {
@@ -181,6 +183,18 @@ td, th {
 	font-style: italic;
 }
 
+.principal-natacao, .principal-corrida, .principal-ciclismo {
+	text-align: center;
+	font-size: 2em;
+	margin: 1em;
+	clear: left;
+}
+
+.principal-natacao-image, .principal-corrida-image, .principal-ciclismo-image {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
 .utensilios {
 	width: 120px;
 	float: left;
@@ -189,7 +203,7 @@ td, th {
 
 .mapa {
 	padding: 1em 0; 
-	background: linear-gradient(#FEFEFE, #888888);
+	/* background: linear-gradient(#000000, #888888); */
 }
 
 .mapa p{
@@ -203,7 +217,7 @@ td, th {
 }
 
 .video {
-	width: 560px;
+	width: 700px;
 	margin: 2em auto;
 }
 
@@ -213,11 +227,11 @@ td, th {
 
 .beneficios {
 	padding: 1em;
-	background: linear-gradient(#888888, #3a3838);
+	background: linear-gradient(#FEFEFE, #3a3838);
 }
 
 .conteudo-beneficios {
-	width: 640px;
+	width: 800px;
 	margin: 0 auto;
 }
 
@@ -235,7 +249,8 @@ td, th {
 .lista-beneficios {
 	width: 40%;
 	display: inline-block;
-	vertical-align: top;	
+	vertical-align: top;
+	margin-top: 10px;	
 }
 
 .itens::before {
